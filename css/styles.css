@@ -68,6 +68,80 @@ button {
     /* box-sizing: border-box; */
 }
 
+/* donate part  */
+#donate{
+    margin-bottom: 90px;
+}
+
+.amount-box {
+    display: flex;
+    margin-left: 13%;
+}
+
+.amount {
+    text-align: center;
+    padding-top: 39px;
+    width: 135px;
+    height: 82px;
+    background-color: #f7f5f5;
+    margin-right: 4%;
+}
+
+.amount:hover span{
+    color:#FF5959;
+    transition: 300ms ease-in-out;
+    -webkit-transition: 300ms ease-in-out;
+    -moz-transition: 300ms ease-in-out;
+    -ms-transition: 300ms ease-in-out;
+    -o-transition: 300ms ease-in-out;
+}
+
+.amount:hover{
+    border: #FF5959 solid 1px;
+    background-color: rgba(255, 89, 89, 0.123);
+    transition: 300ms ease-in-out;
+    -webkit-transition: 300ms ease-in-out;
+    -moz-transition: 300ms ease-in-out;
+    -ms-transition: 300ms ease-in-out;
+    -o-transition: 300ms ease-in-out;
+}
+.amount span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.other-amount{
+    margin-top: 5%;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 0 14px 18px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+
+hr {
+    width: 58%;
+    margin: 0 auto;
+}
+
+#submit-amount {
+    font-family: 'Inter', sans-serif;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 7px;
+    margin-top: 32px;
+    padding: 23px 28px 23px 28px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
 /* plan part */
 #plan{
     margin-bottom: 90px;
@@ -147,7 +221,7 @@ form{
     padding-bottom: 95px;
 }
 
-input[placeholder] {
+input[type=email] {
     padding: 12px 0 14px 18px;
     font-size: 20px;
     border: none;
