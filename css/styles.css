@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lobster&family=Manrope&family=Poppins:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* header part */
+#header {
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 159px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+
+.header-text{
+    text-align: center;
+}
+
+.header-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 65px;
+    padding: 0 95px 31px 82px;
+}
+
+.header-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.button {
+    padding: 89px 0 0 0;
+    text-align: center;
+}
+
+.button a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 35px 0px 35px;
+}
+
+button {
+    background-color: #FF5959;
+    border: none;
+    border-radius: 0.9rem;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    /* box-sizing: border-box; */
+}
+
+/* footer part  */
+
+#footer {
+    background-color: #0B0D17;
+    padding: 37px 0 33px 0;
+}
+
+.footer h2{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    line-height: 44px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.footer p{
+    font-family: 'Manrope', sans-serif;
+    color: #FF5959;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+}
