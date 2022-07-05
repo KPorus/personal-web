@@ -68,6 +68,57 @@ button {
     /* box-sizing: border-box; */
 }
 
+/* Subscribe part */
+#Subscribe{
+    margin-bottom: 90px;
+}
+.head{
+    text-align: center;
+}
+
+.head h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.head p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #707070;
+    padding-left: 21%;
+    padding-right: 24%;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+.form{
+    margin: 0 auto;
+    background-color: #FFF4D6;
+    width: 806px;
+}
+
+form{
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+input[placeholder] {
+    padding: 12px 0 14px 18px;
+    font-size: 20px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+input[value=Subscribe] {
+    padding: 16px 40px 14px 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #FF5959;
+    color: #ffff;
+}
 /* footer part  */
 
 #footer {
